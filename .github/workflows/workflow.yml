@@ -4,7 +4,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   ECR_REGISTRY: 181323066851.dkr.ecr.ap-northeast-2.amazonaws.com
-  ECR_REPOSITORY: 181323066851.dkr.ecr.ap-northeast-2.amazonaws.com/gdsccloudassignment
+  ECR_REPOSITORY: gdsccloudassignment
   IMAGE_TAG: latest
 jobs:
   deploy:
